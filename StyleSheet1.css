@@ -1,0 +1,110 @@
+﻿body {
+    background-color:white;
+}
+
+.topMenu ul {
+    padding: 0px;
+    height: 50px;
+    line-height: 15px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#NachalnaSnimka {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+
+
+.topMenu li {
+    width: 200px;
+    margin: 0 5px;
+    padding: 8px 0;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+}
+
+    .topMenu li:hover {
+        background-color: antiquewhite;
+        padding: 5px 0;
+    }
+
+.topMenu a {
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #33CAFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+
+        footer ul li a {
+            color: lightgray;
+            text-decoration: none;
+        }
+
+#Zaglavie h1 {
+    text-align: center;
+}
+
+
+#Zaglavie hr {
+    border: 1px solid aqua;
+}
+
+
+
+.Info p {
+    float: left;
+    font-size: 20px;
+    width: 50%;
+    text-justify: auto;
+}
+
+.Info img {
+    float: right;
+    width: 540px;
+    height: 280px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+
+
+table {
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 2px solid brown;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+#snimka3 {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
